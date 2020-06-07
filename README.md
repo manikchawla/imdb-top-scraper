@@ -5,8 +5,6 @@ The script takes the number of IMDB top rated movies and the name of the actor a
 
 Example: php imdb_topn.php 10 Brad Pitt
 
-P.S. - The script takes ~25 mins for checking an actor's name in all 250 top rated movies.
-
 **Notes:**
 
 1. This script does not use Goutte which is an amazing library that uses Symphony components for scraping in PHP because somehow I couldn't get Goutte to work with all IMDB web pages. It worked flawlessly for reddit and other websites.
